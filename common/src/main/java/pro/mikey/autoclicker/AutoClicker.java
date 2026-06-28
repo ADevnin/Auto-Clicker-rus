@@ -290,7 +290,7 @@ public class AutoClicker {
         }
 
         while (openConfig.consumeClick()) {
-            mc.setScreen(getConfigScreen());
+            mc.gui.setScreen(getConfigScreen());
         }
     }
 
